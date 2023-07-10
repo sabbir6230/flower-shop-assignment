@@ -20,9 +20,11 @@ header {
     background: rgba(229, 84, 115, 0.10);
     height: 100vh;
 }
+
 .banner-content {
     padding-top: 50px;
 }
+
 .banner-container {
     display: flex;
     justify-content: space-between;
@@ -57,4 +59,74 @@ header {
 .banner-img img {
     width: 425px;
     margin-bottom: 100px;
+}
+
+/* Featured Flowers */
+.featured-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.featured-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 20px 0;
+}
+
+.featured-single-item {
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    background-color: aqua;
+    position: relative;
+    border-radius: 300px 300px 0px 0px;
+}
+
+
+.featured-img {
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.featured-img-name {
+    width: 300px;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: underline;
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.featured-items-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.frist-item {
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.second-item {
+    background: rgba(5, 151, 160, 0.15);
+    position: relative;
+
+}
+
+.featured-second-img {
+    position: absolute;
+    bottom: 40px;
+}
+
+.third-item {
+    background: rgba(71, 125, 17, 0.15);
 }
