@@ -12,6 +12,9 @@ body {
 .container {
     width: 80%;
     margin: 0 auto;
+}
+
+.section-padding {
     padding: 90px 0;
 }
 
@@ -46,7 +49,7 @@ header {
     margin: 32px 0;
 }
 
-.banner-btn {
+.btn {
     padding: 20px 40px;
     border-radius: 8px;
     background: #E55473;
@@ -129,4 +132,42 @@ header {
 
 .third-item {
     background: rgba(71, 125, 17, 0.15);
+}
+
+/* HotDeal Section */
+.hotdeal-section {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05)
+}
+
+.hotdeal-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hotdeal-content {
+    text-align: center;
+}
+.bg-primary {
+    color: ##E55473;
+}
+
+.hotdeal-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.hotdeal-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 30px 0;
+}
+
+.hotdeal-btn {
+    text-align: center;
 }
