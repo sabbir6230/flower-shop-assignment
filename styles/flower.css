@@ -45,9 +45,11 @@ body {
     border: none;
     cursor: pointer;
 }
+
 .btn:hover {
     box-shadow: -0px -0px 8px gray;
 }
+
 /* Header Section */
 header {
     background: rgba(229, 84, 115, 0.10);
@@ -123,6 +125,7 @@ header {
     display: flex;
     justify-content: space-between;
 }
+
 .featured-description {
     margin-bottom: 60px;
 }
@@ -144,6 +147,29 @@ header {
 
 .third-item {
     background: rgba(71, 125, 17, 0.15);
+}
+
+/* Support Section */
+
+.support-section .container {
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin-bottom: 90px;
+    padding: 85px 100px;
+    text-align: center;
+}
+.support-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.suport-content {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
 }
 
 /* HotDeal Section */
@@ -228,10 +254,12 @@ header {
     background-color: #fff;
     box-shadow: -0px -0px 8px rgb(202, 200, 200);
 }
+
 .shopping-form input:nth-child(2):hover {
-    box-shadow: -0px -0px 8px  gray;
+    box-shadow: -0px -0px 8px gray;
     cursor: pointer;
 }
+
 /* Footr Section */
 footer {
     background-color: #111010;
